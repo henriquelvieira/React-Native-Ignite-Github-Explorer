@@ -22,7 +22,7 @@ export default function App() {
         await SplashScreen.preventAutoHideAsync();
         await Font.loadAsync({
           Roboto_400Regular,
-    Roboto_700Bold
+          Roboto_700Bold
         });
       } catch (e) {
         console.warn(e);
